@@ -1,0 +1,139 @@
+body {
+	font-family: 'Open Sans', serif;
+	font-size: 1.4rem;
+	margin: 0 ;
+	padding: 0;
+	top:0;
+}
+
+header{text-align:center;}
+
+.rounded{
+   	border-radius: 70%!important;
+   	/*position: absolute;*/
+   	/*margin-top: 23%;*/
+    /*margin-left: -9%;*/
+    width: 300px;
+   }
+ #imgup{
+ 	background: url(image/desktop.jpg) center center;
+ 	border-style: unset;
+     background-size:cover;
+ 	padding: 139px;
+ 	margin-top: 0px
+}
+
+#menu {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	background-color: teal;
+	position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding:7px;
+    z-index: 10px
+}
+#menu li {
+	display: inline-block;
+	text-align: center;
+margin: 0}
+
+#menu a {margin: 28px;}
+#myname{
+	font-weight: bold;
+}
+#subtile{
+	text-decoration-line: underline;}
+#titles {
+	font-family: 'Open Sans', serif;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: teal;}
+
+
+
+#aboutme{
+	padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 75px;}
+#contact{
+ 	font-family: 'Open Sans', sans-serif;
+ 	 	background: url(image/background.jpg) center center;
+ 	border-style: unset;
+     background-size:cover;
+     padding: 325px;
+ margin-top: 0px}
+} 
+.imgntx{
+    width: 275px;
+    height: 190px;}
+.img3ds{
+    width: 253px;
+    height: 100px;}
+.imgajs{
+    width: 250px;
+    height: 170px;}
+.imgtem{
+    width: 140px;
+    height: 130px;}
+.imgcnam{
+	width: 211px;
+    height: 144px;}
+.imgupjv{
+    width: 150px;
+    height: 160px;}
+
+.img {
+	width:50px;
+	height:50px;
+}
+.same {
+    border-left: 3px dotted black;
+    position: relative;
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#qualif{
+	text-decoration: underline;
+}
+.point{
+width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 42%;
+    left: -10px;
+    background-color: white;
+}
+
+#contact input, #contact textarea {
+	width: 90%;
+	margin:center;
+}
+.col-6{
+	font: 768px
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 38px;
+}
+h3 {
+	font-size: 38px;
+}
+h4 {
+	font-size: 38px;
+}
+h5 {
+	font-size: 38px;
+}
+h6 {
+	font-size: 38px;
+}
+

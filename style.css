@@ -5,6 +5,15 @@ body {
 	padding: 0;
 	top:0;
 }
+/*@media screen and (max-width: 1280px){
+.imgntx{
+    background: url(image/nat.png);
+    width: 600px;
+    height: 350px;
+
+    /* Rédigez vos propriétés CSS ici */
+/*        }
+}*/
 
 header{text-align:center;}
 
@@ -19,15 +28,14 @@ header{text-align:center;}
  	background: url(image/bat.jpg) center center;
  	border-style: unset;
      background-size:cover;
- 	padding: 155px;
+ 	
  	margin-top: 0px;
 }
 .sucess{
 	
 	border-style: unset;
     width:100%;
-    position: relative;
-    
+    position: relative; 
     margin-top: 0px;
 }
 
@@ -46,27 +54,44 @@ margin: 0}
 	padding-bottom: 0px;
 	color: white;}
 
-#aboutme{
+#aboutme{/*
 	padding-top: 70px;
     padding-bottom: 50px;
     padding-left: 215px;
+    */
+    padding: 10%;
     line-height: 1.8;
 }
 #contact{
  	font-family: 'Open Sans', sans-serif;
- 	background: url(image/background.jpg) center center;
+ 	background: url(image/work.jpg) center center;
  	border-style: unset;
     background-size:cover;
     width: 100%;
     padding: 10%;
  	margin-top: 0px}
-.container{
+#contact label {
+    color: white;
+}
+.{
 /*        max-width: 1100px;
 */}
 /*.row{
     margin-right: -550px;
     margin-left: -15px;
 }*/
+.navigation-buttons {
+    bottom: 20px;
+    position: fixed;
+    right: 20px;
+    z-index: 999;
+    }
+.navigation-buttons span.prev {
+    background: url(/images/nav-prev.9b76566….png) 5px 5px no-repeat rgb(34, 34, 34);
+}
+#titles_container{
+    padding-bottom: 15%;
+}
 .bg-light {
     background-color: #f8f9fa!important;
     position: fixed;
@@ -111,10 +136,12 @@ margin: 0}
 .same {
     border-left: 3px dotted black;
     position: relative;
+    
     padding-left: 30px;
     margin-left: 30px;
     margin-bottom: 60px;
     padding-bottom: 36px;
+
 }
 #qualif{
 	text-decoration: underline;
@@ -169,3 +196,7 @@ h6 {
     text-decoration: underline;
     }
 
+#titles_container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
